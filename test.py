@@ -18,7 +18,7 @@
     3. add the result of factorial
     4. compare the result
 '''
-
+'''
 def factorial(n):
     n = int(n)
     if n == 0 or n == 1:
@@ -39,9 +39,23 @@ print("Peterson Number" if (res == num) else "Not a Peterson Number")
 #     print("Peterson Number")
 # else:
 #     print("Not a Peterson Number")
+'''
 
+# Tech number
+number = int(input())
+length = len(str(number))
+num_in_str = str(number)
 
+if length % 2 == 0:
+    first_part = int(num_in_str[0: length // 2])
+    second_part = int(num_in_str[length // 2:])
+    sum = first_part + second_part
+    sum = sum * sum
 
+else:
+    print("No, This is not a Tech number")
+
+print("Tech Number" if sum == number else "Not a Tech number")
 
 
 
