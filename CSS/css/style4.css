@@ -1,0 +1,13 @@
+p{
+    height: 200px;
+    font-size: 25px;
+    width: 30%;
+    border: 2px solid black;
+    padding: 10px;
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    overflow: auto;
+    /* overflow-wrap: normal; */
+    overflow-wrap: break-word;
+}

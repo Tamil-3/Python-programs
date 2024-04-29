@@ -1,0 +1,45 @@
+.relative {
+    border: 1px solid red;
+    width: 20%;
+    font-size: 1.5rem;
+    /* position: relative;
+    top: 100px;
+    left: 50px; */
+}
+
+.parent {
+    height: 200px;
+    width: 500px;
+    border: 2px solid gold;
+    position: relative;
+}
+
+.absolute {
+    margin: 0;
+    border: 1px solid green;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.fixed {
+    font-size: 1.2rem;
+    background-color: crimson;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    border-radius: 6px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.sticky {
+    border: 1px solid green;
+    font-size: 1.5rem;
+    width: 20%;
+    position: sticky;
+    top: 10px;
+}

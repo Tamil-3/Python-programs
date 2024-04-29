@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    /* background-color: rgb(30, 168, 113); */
+    /* background: linear-gradient(to right, #84ffc9, #aab2ff, #eca0ff); */
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 50% 50%;
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y; */
+    /* background-position: bottom right; */
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
