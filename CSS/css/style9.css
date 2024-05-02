@@ -1,0 +1,33 @@
+.box-1{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+}
+
+.box-2{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+}
+
+.box-3{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+}
+
+div{
+    display: inline;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+span{
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: chartreuse;
+    padding: 20px;
+    font-size: 2rem;
+    display: inline-block;
+}
