@@ -1,0 +1,38 @@
+/* CSS Flexbox */
+.container {
+    height: 800px;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: column wrap;
+    /* column-gap: 10px;
+    row-gap: 15px; */
+    gap: 10px;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    justify-content: end;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end; */
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    font-size: 2rem;
+    /* margin: 15px; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

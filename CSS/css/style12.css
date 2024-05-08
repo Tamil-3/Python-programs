@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    
+} */
+
+.container {
+    height: 100vh;
+    background-color: rgb(215, 52, 79);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+                        'head head head'
+                        'menu main ad1'
+                        'menu main ad1'
+                        'menu main ad1'
+                        'ad2 main ad1'
+                        'foot foot foot';
+}
+
+.container .header, .container .footer {
+    margin: 10px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.container .menu,
+.container .ad1,
+.container .ad2,
+.container .main {
+    margin: 10px;
+    background-color: rgb(36, 32, 112);
+    color: white;
+    padding: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.container .header{
+    grid-area: head;
+}
+
+.container .menu{
+    grid-area: menu;
+}
+
+.container .main{
+    grid-area: main;
+}
+
+.container .ad1{
+    grid-area: ad1;
+}
+
+.container .footer{
+    grid-area: foot;
+}
