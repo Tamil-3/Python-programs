@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+table {
+    font-size: 2rem;
+    padding: 5px;
+    border-collapse: collapse;
+    border-bottom: 2px solid #169a67;
+}
+
+/* table{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+table tr td {
+    padding: 5px 20px;
+}
+
+table tr th {
+    background-color: #169a67;
+    padding: 10px;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    color: #169a67;
+    background-color: rgba(224, 219, 219, 0.491);
+}
