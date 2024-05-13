@@ -1,0 +1,87 @@
+body {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    /* transition-property: width, height, background-color; */
+    /* transition-property: all; */
+    /* transition-duration: 1s; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: cubic-bezier(0.51, 0.07, 0.94, 2.08); */
+    /* transition: all 3s ease-out; */
+    animation-name: animate;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes animate {
+
+    /* from {
+        height: 150px;
+        width: 150px;
+        background-color: brown;
+        border-radius: 10px;
+    }
+
+    to {
+        height: 200px;
+        width: 200px;
+        background-color: turquoise;
+        border-radius: 5px;
+    } */
+    0% {
+        /* height: 200px;
+        width: 200px; */
+        transform: translateX(200px);
+        background-color: dodgerblue;
+        border-radius: 6px;
+    }
+
+    25% {
+        transform: translateY(150px);
+        background-color: crimson;
+        border-radius: 20px;
+    }
+
+    50% {
+        transform: translateX(-180px);
+        background-color: rgb(52, 139, 30);
+        border-radius: 10px;
+    }
+
+    75% {
+        transform: translateY(-100px);
+        background-color: rgb(12, 150, 174);
+        border-radius: 30px;
+    }
+
+    100% {
+        height: 200px;
+        width: 200px;
+        background-color: dodgerblue;
+        border-radius: 6px;
+    }
+
+}
+
+/*.box:hover{
+     width: 250px;
+    height: 250px;
+    background-color: chocolate; */
+/* transform: translateX(-150px); */
+/* transform: translateY(-150px); */
+/* transform: translateZ(150px); */
+/* transform: translate(150px, 200px); */
+/* transform: perspective(500px) rotateY(-60deg); */
+/* transform: perspective(500px) rotateZ(90deg); */
+/* transform: scale(1.2); 
+    transform: skewY(30deg);
+}*/
