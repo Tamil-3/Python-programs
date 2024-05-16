@@ -1,0 +1,27 @@
+body{
+    counter-reset: section;
+}
+
+img{
+    /* filter: blur(3px); */
+    /* filter: brightness(30%); */
+    /* filter: contrast(60%); */
+    /* filter: grayscale(100%); */
+    /* filter: drop-shadow(-6px -6px 4px rgb(111, 110, 110)); */
+    /* box-shadow: -6px -6px 4px rgb(111, 110, 110); */
+    transition: .3s;
+}
+
+img:hover{
+    cursor: not-allowed;
+}
+
+ul li{
+    font-size: 2rem;
+    list-style-type: decimal;
+}
+
+h3::before{
+    counter-increment: section;
+    content: 'Section ' counter(section) ': ';
+}

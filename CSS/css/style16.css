@@ -1,0 +1,52 @@
+/*:root{
+    --height: 200px;
+    --width: 180px;
+}
+
+.box1 {
+    height: var(--height);
+    width: var(--width);
+    background-color: crimson;
+    margin: 10px;
+}
+
+.box2 {
+    height: var(--height);
+    width: var(--width);
+    background-color: darkturquoise;
+    margin: 10px;
+}
+
+ 
+    DOM -> Document Object Model
+    CSSOM -> CSS Object Model
+*/
+
+/* Media Query 
+
+    screen
+    print
+    speech
+    all
+
+    Desktop first approach              Mobile first approach
+*/
+.box1 {
+    background-color: crimson;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: goldenrod;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px){
+    div{
+        display: flex;
+    }
+
+    .box1{
+        background-color: dodgerblue;
+    }
+}
